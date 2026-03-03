@@ -24,3 +24,7 @@ def checkout(request):
     return render(request, 'checkout.html')
 def thankyou(request):
     return render(request, 'thankyou.html')
+
+
+def base(request):
+    return render(request, 'base.html')
